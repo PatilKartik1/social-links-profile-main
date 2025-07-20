@@ -1,2 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body {
+  background-color: rgb(36, 36, 36);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter, sans-serif;
+}
+
+.container {
+  margin-top: 40px;
+  width: 100%;
+  max-width: 350px;
+  height: 80vh;
+  background-color: rgb(105, 104, 104);
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: bold;
+}
+
+div img {
+  border-radius: 50%;
+  margin-bottom: 20px;
+  width: 100px;
+  height: 100px;
+}
+h1 {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.loco {
+  color: yellowgreen;
+  font-size: 15px;
+  font-weight: bold;
+}
+.role {
+  color: #fbfbfb;
+}
+ul li {
+  list-style: none;
+  color: white;
+  font-size: 15px;
+  margin-bottom: 10px;
+  background-color: rgb(77, 76, 76);
+  padding: 10px;
+  border-radius: 10px;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  width: 80%;
+  text-align: center;
+}
